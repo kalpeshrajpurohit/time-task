@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- uses CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Time</title>
+</head>
+
+<body>
+    
+    <section>
+        <div class="middel-time">
+            <div class="timeing-box">
+                <!-- start mike box -->
+                <div class="mike-box card_bg_pd">
+                    <div class="header-top">
+                        <p class="mike_text">
+                            <i class="fa fa-th" aria-hidden="true"></i>
+                            Mike
+                        </p>
+                        <p class="notification_number" id="notificatin_box">
+                            <i class="fa fa-th-list" aria-hidden="true"></i>
+                            <span>
+                                4
+                            </span>
+                        </p>
+                    </div>
+                    <div class="input-task-name">
+                        <input type="text" placeholder="Type task name">
+                    </div>
+                    <div class="circle-stopwatch">
+                        <div class="zero-count-value">
+                            <p>00 : 00</p>
+                        </div>
+                        <div class="stat_button">
+                            <button type="button">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="add-time-button header-top" id="addTimeBtn">
+                        <p>
+                            Add Time
+                        </p>
+                        <p>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <!-- start for calendar -->
+                        <div class="calender_time card_bg_pd">
+                            <div class="calendar-head">
+                                <div class="time-input">
+                                    <input type="text" placeholder="00:00">
+                                </div>
+                                <button type="button">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <!-- calendar -->
+                            <div id="datepicker" class="calendar"></div>
+                            <!-- calendar -->
+                            <div class="setDate_button">
+                                <button type="button">Set Date</button>
+                                <button type="button" id="close-active-calendar">X</button>
+                            </div>
+                        </div>
+                    <!-- end for calendar -->
+                    <!-- start for activity -->
+                    <div class="mike-activity card_bg_pd">
+                        <div class="header-top">
+                            <p class="mike_text">
+                                <i class="fa fa-th" aria-hidden="true"></i>
+                                Mike
+                            </p>
+                            <p class="notification_number" id="close-noti_box">
+                                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                <span></span>
+                            </p>
+                        </div>
+                        <div class="today-activity activities">
+                            <p class="title-with-line">
+                                <span>
+                                    Today Activity
+                                </span>
+                            </p>
+                            <ul>
+                               <li>
+                                   <span class="list-dots green"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                            Branding Research
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                               <li>
+                                   <span class="list-dots green"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                            Email Template design
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                            </ul>
+                        </div>
+                        <div class="today-activity activities">
+                            <p class="title-with-line">
+                                <span>
+                                    Task
+                                </span>
+                            </p>
+                            <ul>
+                               <li>
+                                   <span class="list-dots red"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                            Artwork poster
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                               <li>
+                                   <span class="list-dots red"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                            Design Homepage
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                               <li>
+                                   <span class="list-dots yellow"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                            Photoshoot prep
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                               <li>
+                                   <span class="list-dots yellow"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                            Development work
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                               <li>
+                                   <span class="list-dots yellow"></span>
+                                   <div class="dropdown-heading">
+                                        <span>
+                                           Client Meeting
+                                        </span>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </div>
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end for activity -->
+                </div>
+                <!-- end mike box -->
+            </div>
+        </div>
+    </section>
+</body>
+    <!-- uses script -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/customeJS.js"></script>
+    <!-- uses script -->
+</html>
